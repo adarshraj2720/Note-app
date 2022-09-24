@@ -46,7 +46,6 @@ function Note() {
     function handledelete(event) {
         let id = event.target.id
         let filterid = list.filter((e) => e !== id)
-        let deleteid = list.filter((e) => e === id)
         localStorage.setItem("list", JSON.stringify(filterid));
         setlist(filterid);
     }
@@ -55,11 +54,8 @@ function Note() {
         let id = event.target.id
         let filterid = list.filter((e) => e === id)
         let index = list.indexOf(id)
-        //setlist(index=note)
         setnote(filterid)
         list[index]=note
-       // localStorage.setItem("list", JSON.stringify( list[index]=note));
-        //console.log(filterid)
         handleon()
         setsearchNote(false)
        
