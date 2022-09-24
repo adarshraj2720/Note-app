@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* custom css */
+body{
+    font-family: 'Oswald', sans-serif;
+    /* position: relative; */
+}
+.container{
+    max-width: 1200px;
+    width: 26%;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+   align-items: center;
+}
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.flex-between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+.flex-around{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.flex-20{
+    flex: 0 1 20%;
+}
+.flex-30{
+    flex: 0 1 30%;
+}
+.flex-40{
+    flex: 0 1 40%;
+}
+.flex-50{
+    flex: 0 1 50%;
+}
+
+
+/* Hedaer component css */
+.header{
+    padding:20px 0px;
+    background-color: #1F1D2B;
+    border-radius: 4px;
+}
+
+.fa-clipboard{
+    color: white;
+    font-size: 30px;
+    padding: 0 10px;
+}
+h1{
+    font-size: 22px;
+    color: white;
+}
+
+.fa-search{
+    color: white;
+    font-size: 20px;
+    padding:0 10px;
+}
+
+
+/* Note component css */
+
+
+.searchteam{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 90%;
+}
+form{
+    padding-top: 26px;
+}
+
+.note{
+   background-color: #1F1D2B;
+   height: 96vh;
+   border-radius: 4px;
+   overflow: hidden;
+}
+
+input{  
+    margin-left: 20px;
+    width: 80%;
+    height: 36px;
+    outline: none;
+    border: none;
+    border-radius: 4px;   
+    font-size: 20px;
+  
+}
+
+input::placeholder{
+    padding-left: 5px;
+    color: #1F1D2B;
+}
+.notebox{
+    border-radius: 4px;
+    padding: 4px;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+}
+.addbtn{
+   height: 40px;
+   width: 40px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 6px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.fa-plus{
+    color: black;
+    font-size: 20px;
+}
+
+.fa-clipboard-list{
+    color: white;
+    font-size: 30px;
+}
+.floterbtn{
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #6F6FC8;
+    position: fixed;
+    top: 86vh;
+    left: 58%;
+
+}
+
+ul{
+    width:50%;
+   
+}
+li{
+    
+    list-style-type: square;
+    color: white;
+    margin: 20px 0px 10px 30px;
+    font-size: 24px;
+}
+.fa-edit , .fa-trash{
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+}
